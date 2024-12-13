@@ -1,0 +1,15 @@
+CREATE DATABASE Registro
+
+USE Registro
+
+create table Estudiante
+(
+Codigo varchar(5) primary key,
+Nombres varchar(100),
+Apellidos varchar(100),
+Direccion varchar(50),
+)
+
+INSERT INTO Estudiante values('A0204','ARMANDO','ANTIESCORIAS','AV.PANAMÁ')
+
+select*from Estudiante
